@@ -33,3 +33,9 @@ npx tsx src/server.ts
 ```sh
 npm run dev
 ```
+
+We will use the query builder Knex.js for the database.
+https://knexjs.org
+```sh
+npm install knex sqlite3
+```
