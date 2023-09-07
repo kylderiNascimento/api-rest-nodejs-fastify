@@ -39,3 +39,7 @@ https://knexjs.org
 ```sh
 npm install knex sqlite3
 ```
+To create a migration:
+```sh
+npm run knex -- migrate:make create-documents
+```
