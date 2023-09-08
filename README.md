@@ -54,3 +54,18 @@ we will use the ZOD lib for data validation in our environment variables
 ```sh
 npm install zod
 ```
+
+Test whit Vitest
+https://vitest.dev
+```sh
+npm install vitest -D
+```
+
+For testing, the interesting thing is not to "raise a server", but for the agent to be able to make requests. To do this we will install the supertest library.
+```sh
+npm install supertest -D
+npm install -D @types/supertest
+```
+```sh
+npm run dev
+```
