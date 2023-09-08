@@ -49,3 +49,8 @@ Install DotENV
 ```sh
 npm install dotenv
 ```
+
+we will use the ZOD lib for data validation in our environment variables
+```sh
+npm install zod
+```
