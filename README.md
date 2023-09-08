@@ -43,3 +43,9 @@ To create a migration:
 ```sh
 npm run knex -- migrate:make create-documents
 ```
+
+Environment variables:
+Install DotENV
+```sh
+npm install dotenv
+```
