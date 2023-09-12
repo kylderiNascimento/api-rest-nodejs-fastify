@@ -67,5 +67,5 @@ npm install supertest -D
 npm install -D @types/supertest
 ```
 ```sh
-npm run dev
+npm run test
 ```
